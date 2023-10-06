@@ -20,33 +20,33 @@ scikit-learn              1.0.2
 │  data.xlsx  
 │  list.txt  
 │  
-├─.idea
-│      modules.xml
-│      TFN-ROMs.iml
-│      workspace.xml
-│      
-├─code
-│  │  get_data.py
-│  │  loss.py
-│  │  main.py
-│  │  model.py
-│  │  train.py
-│  │  utils.py
+├─.idea  
+│      modules.xml  
+│      TFN-ROMs.iml  
+│      workspace.xml  
+│        
+├─code  
+│  │  get_data.py  
+│  │  loss.py  
+│  │  main.py  
+│  │  model.py  
+│  │  train.py  
+│  │  utils.py  
 │  │  
-│  ├─checkpoint
-│  │      0.715_0.967_last_model.ckpt
+│  ├─checkpoint  
+│  │      0.715_0.967_last_model.ckpt  
 │  │      
-│  └─__pycache__
-│          get_data.cpython-39.pyc
-│          loss.cpython-39.pyc
-│          model.cpython-39.pyc
-│          train.cpython-39.pyc
-│          utils.cpython-39.pyc
-│          
-├─params
-│      params.py
-│      
-└─__pycache__
+│  └─__pycache__  
+│          get_data.cpython-39.pyc  
+│          loss.cpython-39.pyc  
+│          model.cpython-39.pyc  
+│          train.cpython-39.pyc  
+│          utils.cpython-39.pyc  
+│            
+├─params  
+│      params.py  
+│        
+└─__pycache__  
 
 data.xlsx： The dataset used in this study
 
