@@ -17,8 +17,8 @@ python                    3.9.12
 scikit-learn              1.0.2
 
 # Introduction to the documents
-│  data.xlsx
-│  list.txt
+│  data.xlsx  
+│  list.txt  
 │  
 ├─.idea
 │      modules.xml
