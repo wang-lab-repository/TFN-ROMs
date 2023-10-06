@@ -17,13 +17,20 @@ python                    3.9.12
 scikit-learn              1.0.2
 
 # Introduction to the documents
-│  data.xlsx <br>
-├─.idea< br >
-│      modules.xml <br>
-│      TFN-ROMs.iml <br>
-│      workspace.xml <br>
-│    <br>
-├─code <br>
+│  data.xlsx  
+
+├─.idea  
+
+│      modules.xml  
+
+│      TFN-ROMs.iml  
+
+│      workspace.xml  
+
+│   
+
+├─code   
+
 
 │  │  get_data.py
 
