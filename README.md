@@ -17,23 +17,23 @@ python                    3.9.12
 scikit-learn              1.0.2
 
 # Introduction to the documents
-│  data.xlsx： The dataset used in this study
+│  data.xlsx
 │  
 ├─.idea
-│      modules.xml：Some configuration files related to modules
-│      TFN-ROMs.iml：Some configuration files related to files
-│      workspace.xml：Some configuration files related to workspace
+│      modules.xml
+│      TFN-ROMs.iml
+│      workspace.xml
 │      
 ├─code
-│  │  get_data.py: Importing data and processing
-│  │  loss.py: Customize the objective function
-│  │  main.py: Master Functions
-│  │  model.py: Model structure
-│  │  train.py: Training Functions
-│  │  utils.py: Common Functions
+│  │  get_data.py
+│  │  loss.py
+│  │  main.py
+│  │  model.py
+│  │  train.py
+│  │  utils.py
 │  │  
 │  ├─checkpoint
-│  │      0.715_0.967_last_model.ckpt: Pre-trained model weights
+│  │      0.715_0.967_last_model.ckpt
 │  │      
 │  └─__pycache__
 │          get_data.cpython-39.pyc
@@ -43,6 +43,24 @@ scikit-learn              1.0.2
 │          utils.cpython-39.pyc
 │          
 ├─params
-│      params.py: Parameter summary
+│      params.py
 │      
 └─__pycache__
+
+data.xlsx： The dataset used in this study
+
+get_data.py: Importing data and processing
+
+loss.py: Customize the objective function
+
+main.py: Master Functions
+
+model.py: Model structure
+
+train.py: Training Functions
+
+utils.py: Common Functions
+
+0.715_0.967_last_model.ckpt: Pre-trained model weights
+
+params.py: Parameter summary
