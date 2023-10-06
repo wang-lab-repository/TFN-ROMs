@@ -17,7 +17,7 @@ python                    3.9.12
 scikit-learn              1.0.2
 
 # Introduction to the documents
-│  data.xlsx  //The dataset used in this study  
+│  data.xlsx     // The dataset used in this study  
 │      
 ├─.idea  
 │      modules.xml  
@@ -25,17 +25,17 @@ scikit-learn              1.0.2
 │      workspace.xml  
 │            
 ├─code  
-│  │  get_data.py  //Importing data and processing  
-│  │  loss.py  //Customize the objective function  
-│  │  main.py  //Master Functions  
-│  │  model.py  //Model structure  
-│  │  train.py  //Training Functions  
-│  │  utils.py  //Common Functions  
+│  │  get_data.py     // Importing data and processing  
+│  │  loss.py     // Customize the objective function  
+│  │  main.py     // Master Functions  
+│  │  model.py     // Model structure  
+│  │  train.py     // Training Functions  
+│  │  utils.py     // Common Functions  
 │  │    
 │  ├─checkpoint  
-│  │      0.715_0.967_last_model.ckpt  //Pre-trained model weights  
+│  │      0.715_0.967_last_model.ckpt     // Pre-trained model weights  
 │  │        
-│  └─__pycache__  
+│  └─__pycache__    
 │          get_data.cpython-39.pyc  
 │          loss.cpython-39.pyc  
 │          model.cpython-39.pyc  
@@ -43,24 +43,6 @@ scikit-learn              1.0.2
 │          utils.cpython-39.pyc  
 │              
 ├─params  
-│      params.py  //Parameter summary  
+│      params.py     // Parameter summary  
 │          
 └─__pycache__  
-
-data.xlsx： The dataset used in this study
-
-get_data.py: Importing data and processing
-
-loss.py: Customize the objective function
-
-main.py: Master Functions
-
-model.py: Model structure
-
-train.py: Training Functions
-
-utils.py: Common Functions
-
-0.715_0.967_last_model.ckpt: Pre-trained model weights
-
-params.py: Parameter summary
