@@ -18,19 +18,11 @@ scikit-learn              1.0.2
 
 # Introduction to the documents
 │  data.xlsx
-
-│  
-
 ├─.idea
-
 │      modules.xml
-
 │      TFN-ROMs.iml
-
 │      workspace.xml
-
 │    
-
 ├─code
 
 │  │  get_data.py
