@@ -35,3 +35,33 @@ utils.py: Common Functions
 
 params.py: Parameter summary
 
+│  data.xlsx  
+│    
+├─.idea  
+│        modules.xml  
+│        TFN-ROMs.iml  
+│        workspace.xml  
+│        
+├─code  
+│    │  get_data.py  
+│    │  loss.py  
+│    │  main.py  
+│    │  model.py  
+│    │  train.py  
+│    │  utils.py  
+│    │      
+│    ├─checkpoint  
+│    │        0.715_0.967_last_model.ckpt  
+│    │        
+│    └─__pycache__  
+│            get_data.cpython-39.pyc  
+│            loss.cpython-39.pyc  
+│            model.cpython-39.pyc  
+│            train.cpython-39.pyc  
+│            utils.cpython-39.pyc  
+│            
+├─params  
+│        params.py  
+│        
+└─__pycache__  
+
