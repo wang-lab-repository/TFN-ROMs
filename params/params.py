@@ -1,0 +1,31 @@
+import argparse
+
+# 命令行参数定义和解析
+parser = argparse.ArgumentParser(description="a origin argparse")
+parser.add_argument('-f', '--epoch', type=int, default=1000, choices=[500, 1000, 1500, 2000])
+parser.add_argument('-f', '--lr', type=float, default=0.001687534952708282)
+parser.add_argument('-f', '--lr_min', type=float, default=1.953914135289555e-05)
+parser.add_argument('-f', '--step_size', type=int, default=35)
+parser.add_argument('-f', '--optimizer', type=str, default='Adam', choices=['Adam', 'Adadelta', 'Adagrad', 'SGD'])
+parser.add_argument('-f', '--batch_size', type=int, default=128, choices=[1, 2, 4, 8, 16, 32, 64, 128])
+parser.add_argument('-f', '--path', type=str, default="data.xlsx")
+parser.add_argument('-f', '--hidden1', type=int, default=70)
+parser.add_argument('-f', '--hidden2', type=int, default=155)
+parser.add_argument('-f', '--hidden3', type=int, default=85)
+parser.add_argument('-f', '--hidden4', type=int, default=175)
+parser.add_argument('-f', '--hidden5', type=int, default=20)
+parser.add_argument('-f', '--hidden6', type=int, default=95)
+parser.add_argument('-f', '--RC1', type=int, default=0)
+parser.add_argument('-f', '--RC2', type=int, default=0)
+parser.add_argument('-f', '--RC3', type=int, default=1)
+parser.add_argument('-f', '--RC4', type=int, default=1)
+parser.add_argument('-f', '--RC5', type=int, default=0)
+parser.add_argument('-f', '--dropout1', type=float, default=0.05)
+parser.add_argument('-f', '--dropout2', type=float, default=0.25)
+parser.add_argument('-f', '--dropout3', type=float, default=0.00)
+parser.add_argument('-f', '--device', type=float, default="cpu")
+parser.add_argument('-f', '--partition', type=float, default=9.0)
+args = parser.parse_args()
+
+print('Hello {} {} {}'.format(args.partition, args.RC3, args.RC4))
+
